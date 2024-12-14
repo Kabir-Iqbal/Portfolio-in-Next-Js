@@ -22,7 +22,7 @@ function Page() {
      {/* Hero section */}
        <div className={` ${jetbrians_mono.className}  flex flex-col md:flex-row  justify-between mx-6 md:mx-10 gap-3 md:gap-5 h-screen mt-16` }>
           {/* left section */}
-           <div className=" w-[95%] sm:w-[30%] md:w-[25%]  mx-auto bg-grey-600 flex items-center justify-center rounded-full border-[1px] border-x-amber-400 h-96 " >
+           <div className=" w-[60%] sm:w-[30%] md:w-[25%]  mx-auto bg-grey-600 flex items-center justify-center rounded-full border-[1px] border-x-amber-400 h-96 " >
              <Image className=" w-64 h-72 md:w-72 md:h-80 rounded-full"
               src="/images/dp2.webp" alt="Profile-pic" width={200} height={150} />
            </div>

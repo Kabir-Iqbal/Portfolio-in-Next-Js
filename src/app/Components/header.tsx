@@ -29,7 +29,7 @@ function Header() {
 
   return (
     <div>
-      <nav className={` ${jetbrians_mono.className} flex z-10 justify-between px-2 sm:px-5 md:px-9 lg:px-24 text-white text-md bg-backgroundcolor h-36 items-center  `} >
+      <nav className={` ${jetbrians_mono.className} sm:px-5 md:px-9 lg:px-24 flex justify-between text-white h-[144px] items-center  `} >
            <h2 className="text-2xl" >Portfolio  <span className="text-yellow-400 text-3xl ml-2  "> . </span> </h2>
            <div className="flex gap-6 text-center " >
            <ul className={`  absolute flex flex-col  right-1 bg-[rgba(39,39,44,1)] py-52 h-full w-[35%] top-[-6632px]  ${isdropdown? " top-[1px] " : " "}    md:flex-row md:flex-1 md:static  md:my-auto  md:py-0 md:bg-backgroundcolor  gap-6 text-[15px] items-center `} >
